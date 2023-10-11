@@ -15,9 +15,10 @@ wget -O 4xUltrasharpV10.pt https://civitai.com/api/download/models/125843
 #Checkpoints
 cd /workspace/stable-diffusion-webui/models/Stable-diffusion
 
-wget -O pandorasBoxNSFW_v1PussBoots.safetensors https://civitai.com/api/download/models/158755
-wget -O juggernautXL_version5.safetensors https://civitai.com/api/download/models/166909
-wget -O realvisxlV20_v20Bakedvae.safetensors https://civitai.com/api/download/models/169921
-wget -O dynavisionXLAllInOneStylized_release0534bakedvae.safetensors https://civitai.com/api/download/models/169718
-wget -O protovisionXLHighFidelity3D_release0620Bakedvae.safetensors https://civitai.com/api/download/models/172397
+wget -O realvisxlV20_v20Bakedvae.safetensors https://civitai.com/api/download/models/169921 #Follows ABXLv0.2.5 prompts well but with artifacts and sometimes bad faces
+wget -O juggernautXL_version5.safetensors https://civitai.com/api/download/models/166909 #High quality restults but ABXLv0.2.5 scope seems restricted
+wget -O pandorasBoxNSFW_v1PussBoots.safetensors https://civitai.com/api/download/models/158755 #Decent 3rd option
+
+#wget -O protovisionXLHighFidelity3D_release0620Bakedvae.safetensors https://civitai.com/api/download/models/172397
+#wget -O dynavisionXLAllInOneStylized_release0534bakedvae.safetensors https://civitai.com/api/download/models/169718
 #wget -O betterThanWords_v20.safetensors https://civitai.com/api/download/models/172253
